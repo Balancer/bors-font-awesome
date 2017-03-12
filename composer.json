@@ -1,0 +1,24 @@
+{
+    "name": "bors/font-awesome",
+
+    "authors": [
+        {
+            "name": "Balancer",
+            "email": "balancer@balancer.ru"
+        }
+    ],
+
+    "require": {
+        "balancer/bors-core": "*"
+    },
+
+	"suggest": {
+		"bower-asset/bower-asset/font-awesome": "Needed if you want use local asset instead CDN"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"B2\\": "./"
+		}
+	}
+}
