@@ -11,3 +11,13 @@ composer require bower-asset/font-awesome
 ```
 
 Local or CDN version detects automatically via `bower-asset/font-awesome` package install.
+
+Call `\B2\FontAwesome::load();` in `pre_show()` method on any view or config.
+
+```php
+function pre_show()
+{
+	\B2\FontAwesome::load();
+	return parent::pre_show();
+}
+```
