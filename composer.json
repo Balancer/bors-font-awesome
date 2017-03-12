@@ -13,7 +13,7 @@
     },
 
 	"suggest": {
-		"bower-asset/bower-asset/font-awesome": "Needed if you want use local asset instead CDN"
+		"bower-asset/font-awesome": "Needed if you want use local asset instead CDN"
 	},
 
 	"autoload": {
