@@ -15,9 +15,14 @@ Local or CDN version detects automatically via `bower-asset/font-awesome` packag
 Call `\B2\FontAwesome::load();` in `pre_show()` method on any view or config.
 
 ```php
-function pre_show()
+namespace \MyApp;
+
+class View extends \B2\View
 {
-	\B2\FontAwesome::load();
-	return parent::pre_show();
+	function pre_show()
+	{
+		\B2\FontAwesome::load();
+		return parent::pre_show();
+	}
 }
 ```
