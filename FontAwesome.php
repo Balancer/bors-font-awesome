@@ -12,8 +12,8 @@ class FontAwesome
 	static function load()
 	{
 		if(empty(\bors::$bower_asset_packages['bower-asset/font-awesome']))
-			bors_use('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+			bors_use('https://maxcdn.bootstrapcdn.com/font-awesome/5.0.7/css/font-awesome.min.css');
 		else
-			bors_use('/bower-asset/font-awesome/css/font-awesome.min.css');
+			bors_use('/bower-asset/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css');
 	}
 }
