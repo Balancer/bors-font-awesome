@@ -1,16 +1,13 @@
 {
-    "name": "bors/font-awesome",
+	"name": "bors/font-awesome",
 
-    "authors": [
-        {
-            "name": "Balancer",
-            "email": "balancer@balancer.ru"
-        }
-    ],
+	"authors": [
+		{ "name": "Balancer", "email": "balancer@balancer.ru" }
+	],
 
-    "require": {
-        "balancer/bors-core": "*"
-    },
+	"require": {
+		"balancer/bors-core": "*"
+	},
 
 	"suggest": {
 		"bower-asset/font-awesome": "Needed if you want use local asset instead CDN"
