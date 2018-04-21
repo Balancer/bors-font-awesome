@@ -13,7 +13,7 @@ class FontAwesome
 	static function load()
 	{
 		if(empty(\bors::$bower_asset_packages['bower-asset/font-awesome']))
-			bors_use('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+			bors_use('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
 		else
 			bors_use('/bower-asset/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css');
 	}
